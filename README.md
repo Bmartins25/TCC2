@@ -6,3 +6,4 @@ Changelog
 
 Início |
 Inclusão - telas Login e cadastro
+Comentário - Sem J.script
