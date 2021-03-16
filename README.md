@@ -5,5 +5,5 @@ Changelog
 16/03/2021
 
 Início |
-Inclusão - telas Login e cadastro
-Comentário - Sem J.script
+Inclusão - telas Login e cadastro |
+Comentário - Sem J.script ainda.
