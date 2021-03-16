@@ -4,5 +4,5 @@ Changelog
 
 16/03/2021
 
-Início
+Início |
 Inclusão - telas Login e cadastro
