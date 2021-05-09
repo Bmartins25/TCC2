@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/Bmartins25/TCC2/issues"
   },
-  "homepage": "https://github.com/Bmartins25/TCC2#readme"
+  "homepage": "https://github.com/Bmartins25/TCC2#readme",
+  "dependencies": {
+    "mongoose": "^5.12.7",
+    "mysql2": "^2.2.5"
+  }
 }

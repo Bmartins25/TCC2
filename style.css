@@ -65,7 +65,7 @@ h2:after{
 }
 
 p{
-  margin-bottom:15px;
+  margin-bottom:5px;
 }
 
 .content p:first-child{
@@ -136,8 +136,8 @@ input[type="submit"]:hover{
   color: #7f7c7c;
   left: 0px;
   height: 20px;
-  width: 440px;
-  padding: 17px 30px 20px 30px;
+  width: 290px; /* altera o local dos botões dentro do layout */
+  padding: 17px 30px 20px 30px; 
   font-size: 16px;
   text-align: right;
   border-top: 1px solid #dbe5e8;
@@ -211,7 +211,7 @@ input[type="submit"]:hover{
 #login{
   position: absolute;
   top: 0px;
-  width: 88%;   
+  width: 58%;   /*88*/
   padding: 18px 6% 60px 6%;
   margin: 0 0 35px 0;
   background: #f7f7f7;
