@@ -12,3 +12,8 @@ Comentário - Sem J.script ainda.
 
 2º Git
 Node e inserindo J.script
+
+
+09/05/2021
+Api criada
+Cadastro de custos no Mongodb
