@@ -20,7 +20,9 @@ Api criada
 
 Cadastro de centro de custos no Mongodb
 
-** Previsão de Entregas finais **
+-----
+
+** Previsão de próximas entregas **
 
 Sprint 6 
 
