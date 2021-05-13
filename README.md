@@ -38,5 +38,5 @@ Testes do projeto no geral
 
 - Sprint 8 
 
-Entrega
+Entrega total do projeto
 
