@@ -14,8 +14,24 @@ Comentário - Sem J.script ainda.
 Node e inserindo J.script
 
 
-09/05/2021
+09/05/2021 - Sprint 5
 
 Api criada
 
-Cadastro de custos no Mongodb
+Cadastro de centro de custos no Mongodb
+
+** Previsão de Entregas finais **
+
+Sprint 6 
+
+Cadastro de clientes na tela inicial
+
+Framework front end (ainda analisando a melhor opção)
+
+Sprint 7
+
+Verificação de pontos faltantes
+
+Testes do projeto no geral
+
+
