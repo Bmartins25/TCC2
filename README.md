@@ -42,3 +42,9 @@ Testes do projeto no geral
 
 Entrega total do projeto
 
+
+---
+
+Start do servidor
+
+npm run dev
