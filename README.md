@@ -35,3 +35,7 @@ Verificação de pontos faltantes
 Testes do projeto no geral
 
 
+Sprint 8 
+
+Entrega
+
