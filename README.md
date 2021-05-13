@@ -27,6 +27,7 @@ Cadastro de centro de custos no Mongodb
 - Sprint 6 
 
 Cadastro de clientes na tela inicial
+Acesso de clientes cadastrados
 
 Framework front end (ainda analisando a melhor opção)
 
