@@ -12,9 +12,7 @@ Comentário - Sem J.script ainda.
 
 - 04/04/2021
 
-2º Git
 Node e inserindo J.script
-
 
 - 20/05/2021 - Sprint 5
 
