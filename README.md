@@ -48,7 +48,7 @@ Testes do projeto no geral
 
 - Sprint 8 
 
-Entrega total do projeto
+Testes de gravações de dados no banco e entrega total do projeto.
 
 
 ---
