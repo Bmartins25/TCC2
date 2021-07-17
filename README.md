@@ -37,7 +37,8 @@ Framework front end (ainda analisando a melhor opção)
 
 - Sprint 7
 
-Verificação de pontos faltantes
+Inclusão de 3 models em Js das páginas faltantes ( Orçamento / Login / Cadastro )
+Validação com o Mongodb.
 
 Testes do projeto no geral
 
