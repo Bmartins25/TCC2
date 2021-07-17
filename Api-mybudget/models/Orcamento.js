@@ -1,7 +1,7 @@
 const mongoose = require('../database/index')
 
-const Custoschema = new mongoose.Schema({
-        banco:{
+const Orcamentoschema = new mongoose.Schema({
+        banco: {
 
             type: String,
             
@@ -15,6 +15,6 @@ const Custoschema = new mongoose.Schema({
 
 })
 
-const Custo = mongoose.model('Custo', Custoschema);
+const Orcamento = mongoose.model('Orçamento', Orcamentoschema);
 
-module.exports = Custo;
+module.exports = Orcamento;
