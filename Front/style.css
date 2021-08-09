@@ -125,6 +125,7 @@ input[type="submit"]{
  
   transition: all 0.2s linear;
 }
+
  
 /*estilo do botão submit no hover */
 input[type="submit"]:hover{

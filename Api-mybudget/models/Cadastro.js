@@ -14,7 +14,7 @@ const Cadastroschema = new mongoose.Schema({
 
          senha:{
 
-            type: Number,
+            type: String,
 
          }
 
