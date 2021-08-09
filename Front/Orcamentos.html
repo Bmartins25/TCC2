@@ -8,7 +8,7 @@
 <body>
   <div class="container" >
     <a class="links" id="paraorcamentos"></a>
-    <a class="links" id="paracustos"></a>
+    <a class="links" id="paragastos"></a>
      
     <div class="content"> 
          <!--FORMULÁRIO DE GASTOS-->
@@ -16,40 +16,44 @@
           <form method="post" action=""> 
             <h1>Orçamentos</h1> 
              
-            <p> 
+           
               <label for="nome_cad">Contas</label>
-              <input id="nome_cad" name="nome_cad" required="required" type="text" placeholder="00,00" />
-            </p>
+              <input id="Contas" name="Contas" required="required" type="number" placeholder="00,00" />
+            
              
-            <p> 
+            
               <label for="email_cad">Alimentação</label>
-              <input id="email_cad" name="email_cad" required="required" type="email" placeholder="almoços"/> 
-            </p>
+              <input id="Alimentacao" name="Alimentacao" required="required" type="number" placeholder="almoços"/> 
+            
              
-            <p> 
+             
               <label for="senha_cad">Eventos</label>
-              <input id="senha_cad" name="senha_cad" required="required" type="password" placeholder="boates e bares"/>
-            </p>
-            <p> 
+              <input id="Eventos" name="Eventos" required="required" type="number" placeholder="boates e bares"/>
+            
                 <label for="senha_cad">Transportes</label>
-                <input id="senha_cad" name="senha_cad" required="required" type="password" placeholder="Gasolina"/>
-              </p>
-              <p> 
+                <input id="Transportes" name="Transportes" required="required" type="number" placeholder="Gasolina"/>
+              
                 <label for="senha_cad">Compras</label>
-                <input id="senha_cad" name="senha_cad" required="required" type="password" placeholder="Arroz, feijão, leite"/>
-              </p>
+                <input id="Compras" name="Compras" required="required" type="number" placeholder="Arroz, feijão, leite"/>
+              
              
-            <p> 
-              <input type="submit" value="Adicionar novo orçamento"/> 
-            </p>
+            
+              <button id="bntclick"> Gravar </button>   <!--olhar o css do botão depois -->
+
+              <button id="bntclick"> Adiciona novo orçamento </button> 
+            
+            </form>
              
             <p class="link">  
               
               <a href="#paracustos"> Centros de custos </a>
             </p>
-          </form>
+          
+
         </div>
 
-        
+
+
+        <script src="./orcamento.js"> </script>
   </body>
   </html>
