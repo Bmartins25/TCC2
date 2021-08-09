@@ -1,11 +1,13 @@
 
 const express = require('express')
-const Custo = require("./models/Custo")
-const Custo = require("./models/Orcamento")
-const Custo = require("./models/Login")
-const Custo = require("./models/Cadastro")
-const Orcamento = require('./models/Orcamento')
+const Custo = require("./models/custos")
+const Orcamento = require("./models/orcamento")
+const Login = require("./models/Login")
+const cadastro = require("./models/Cadastro")
+const cors = require("cors")
+
 const app = express()
+app.use(cors())
 const port = 3000
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
@@ -32,8 +34,8 @@ app.post('/custos', async (req, res)=> {
 
     app.get('/Orcamento', async (req, res) => {
       try {
-         const Orcamento = await Orcamento.find()
-         return res.send({ Orcamento })
+         const orcamento = await Orcamento.find()
+         return res.send({ orcamento })
       } catch(err)
       {
         console.log(err);
@@ -42,8 +44,8 @@ app.post('/custos', async (req, res)=> {
     
     app.post('/Orcamento', async (req, res)=> {
         try{
-        const Orcamento = await Orcamento.create({...req.body});
-        return res.send({ Orcamento });
+        const orcamento = await Orcamento.create({...req.body});
+        return res.send({ orcamento });
         } catch(err){
         console.log(err);
         }

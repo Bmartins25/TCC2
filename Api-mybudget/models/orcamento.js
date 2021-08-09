@@ -1,14 +1,28 @@
 const mongoose = require('../database/index')
 
 const Orcamentoschema = new mongoose.Schema({
-        banco: {
+        Contas: {
 
             type: String,
             
         },
          
-        valor:{
-                type: Number
+        Alimentacao:{
+                type: String,
+
+         },
+
+         Eventos: {
+             type: String,
+         },
+
+         Transportes: {
+                type: String,
+
+         },
+
+         Compras: {
+                type: String,
 
          },
 
