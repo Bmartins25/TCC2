@@ -20,8 +20,6 @@ Api criada
 
 Cadastro de centro de custos no Mongodb
 
-![image](https://user-images.githubusercontent.com/42076192/118302356-7b457b80-b4ba-11eb-8ce5-cc06bb0716b9.png)
-
 
 -----
 
@@ -40,7 +38,6 @@ Framework front end (ainda analisando a melhor opção)
 Inclusão de 3 models em Js das páginas faltantes ( Orçamento / Login / Cadastro )
 Validação com o Mongodb.
 
-![image](https://user-images.githubusercontent.com/42076192/128783142-f5df88f4-3d6f-4e59-b7c7-637dca6a904d.png)
 
 
 
