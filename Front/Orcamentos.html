@@ -13,40 +13,49 @@
     <div class="content"> 
          <!--FORMULÁRIO DE GASTOS-->
         <div id="orcamentos">
-          <form method="post" action=""> 
+
+        <script>
+        function doSomething() {
+          window.location.href = "file:///C:/Users/Bruno%20Bartolomeu/TCC2/Front/Custo.html";
+              return false;
+                }
+            </script>
+           <form onsubmit="return doSomething();" class="my-form">
             <h1>Orçamentos</h1> 
              
            
               <label for="nome_cad">Contas</label>
-              <input id="Contas" name="Contas" required="required" type="number" placeholder="00,00" />
+              <input id="Contas" name="Contas"  type="number" placeholder="00,00" />
             
              
             
               <label for="email_cad">Alimentação</label>
-              <input id="Alimentacao" name="Alimentacao" required="required" type="number" placeholder="almoços"/> 
+              <input id="Alimentacao" name="Alimentacao"  type="number" placeholder="almoços"/> 
             
              
              
               <label for="senha_cad">Eventos</label>
-              <input id="Eventos" name="Eventos" required="required" type="number" placeholder="boates e bares"/>
+              <input id="Eventos" name="Eventos"  type="number" placeholder="boates e bares"/>
             
                 <label for="senha_cad">Transportes</label>
-                <input id="Transportes" name="Transportes" required="required" type="number" placeholder="Gasolina"/>
+                <input id="Transportes" name="Transportes"  type="number" placeholder="Gasolina"/>
               
                 <label for="senha_cad">Compras</label>
-                <input id="Compras" name="Compras" required="required" type="number" placeholder="Arroz, feijão, leite"/>
+                <input id="Compras" name="Compras"  type="number" placeholder="Arroz, feijão, leite"/>
               
-             
+             <br><br>
             
-              <button id="bntclick"> Gravar </button>   <!--olhar o css do botão depois -->
+             <center> <button id="bntclick"> Gravar </button> </center>
 
-              <button id="bntclick"> Adiciona novo orçamento </button> 
-            
-            </form>
+             <input type="submit" value="Centro de custo" />
+             
+             </form>
+             
              
             <p class="link">  
               
-              <a href="#paracustos"> Centros de custos </a>
+               
+              
             </p>
           
 

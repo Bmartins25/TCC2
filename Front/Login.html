@@ -12,9 +12,18 @@
     
 
     <div class="content">      
+    
       <!--FORMULÁRIO DE LOGIN-->
       <div id="login">
-        <form method="post" action=""> 
+
+      <script>
+        function doSomething() {
+          window.location.href = "file:///C:/Users/Bruno%20Bartolomeu/TCC2/Front/Orcamentos.html";
+              return false;
+                }
+            </script>
+
+        <form onsubmit="return doSomething();" class="my-form">
           <h1>My Budget</h1> 
           <p> 
             <label for="nome_login">E-mail</label>
